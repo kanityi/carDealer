@@ -16,7 +16,7 @@
     "@angular/animations": "6.1.10",
     "@angular/common": "6.1.10",
     "@angular/compiler": "^8.1.2",
-    "@angular/core": "6.1.10",
+    "@angular/core": "^8.1.2",
     "@angular/forms": "6.1.10",
     "@angular/http": "6.1.10",
     "@angular/platform-browser": "6.1.10",
@@ -48,12 +48,12 @@
     "karma-coverage-istanbul-reporter": "~1.4.2",
     "karma-jasmine": "~1.1.1",
     "karma-jasmine-html-reporter": "^0.2.2",
-    "typescript": "^3.4.5"
+    "typescript": "^3.5.3"
   },
   "optionalDependencies": {
     "node-sass": "^4.9.3",
     "protractor": "~5.4.0",
     "ts-node": "~5.0.1",
-    "tslint": "~5.9.1"
+    "tslint": "^5.0.0"
   }
 }
