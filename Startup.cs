@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Newtonsoft.Json;
+using AutoMapper;
 
 namespace carDealer
 {
@@ -28,6 +28,7 @@ namespace carDealer
         
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper();
             services
                 .AddEntityFrameworkNpgsql()
                 .AddDbContext<CarDealerDbContext>(options =>
