@@ -10,17 +10,18 @@ namespace carDealer.Migrations
             migrationBuilder.Sql("INSERT INTO \"Makes\" (\"Name\")VALUES ('Make2')");
             migrationBuilder.Sql("INSERT INTO \"Makes\" (\"Name\")VALUES ('Make3')");
 
-            migrationBuilder.Sql("INSERT INTO \"Models\" (\"Name\",\"MakeId\")VALUES ('Make1-ModelA',25)");
-            migrationBuilder.Sql("INSERT INTO \"Models\" (\"Name\", \"MakeId\")VALUES ('Make1-ModelB',25)");
-            migrationBuilder.Sql("INSERT INTO \"Models\" (\"Name\", \"MakeId\")VALUES ('Make1-ModelC',25)");
+            migrationBuilder.Sql("INSERT INTO \"Models\" (\"Name\",\"MakeId\")VALUES ('Make1-ModelA',28)");
+            migrationBuilder.Sql("INSERT INTO \"Models\" (\"Name\", \"MakeId\")VALUES ('Make1-ModelB',28)");
+            migrationBuilder.Sql("INSERT INTO \"Models\" (\"Name\", \"MakeId\")VALUES ('Make1-ModelC',28)");
 
-            migrationBuilder.Sql("INSERT INTO \"Models\" (\"Name\", \"MakeId\")VALUES ('Make2-ModelA',26)");
-            migrationBuilder.Sql("INSERT INTO \"Models\" (\"Name\", \"MakeId\")VALUES ('Make2-ModelB',26)");
-            migrationBuilder.Sql("INSERT INTO \"Models\" (\"Name\", \"MakeId\")VALUES ('Make2-ModelC',26)");
+            migrationBuilder.Sql("INSERT INTO \"Models\" (\"Name\", \"MakeId\")VALUES ('Make2-ModelA',29)");
+            migrationBuilder.Sql("INSERT INTO \"Models\" (\"Name\", \"MakeId\")VALUES ('Make2-ModelB',29)");
+            migrationBuilder.Sql("INSERT INTO \"Models\" (\"Name\", \"MakeId\")VALUES ('Make2-ModelC',29)");
 
-            migrationBuilder.Sql("INSERT INTO \"Models\" (\"Name\", \"MakeId\")VALUES ('Make3-ModelA',27)");
-            migrationBuilder.Sql("INSERT INTO \"Models\" (\"Name\", \"MakeId\")VALUES ('Make3-ModelB',27)");
-            migrationBuilder.Sql("INSERT INTO \"Models\" (\"Name\", \"MakeId\")VALUES ('Make3-ModelC',27)");
+            migrationBuilder.Sql("INSERT INTO \"Models\" (\"Name\", \"MakeId\")VALUES ('Make3-ModelA',30)");
+            migrationBuilder.Sql("INSERT INTO \"Models\" (\"Name\", \"MakeId\")VALUES ('Make3-ModelB',30)");
+            migrationBuilder.Sql("INSERT INTO \"Models\" (\"Name\", \"MakeId\")VALUES ('Make3-ModelC',30)");
+
             
         }
 
